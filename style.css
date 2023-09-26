@@ -1,0 +1,82 @@
+@font-face{
+    sr:ur1(fonts/oneDirection.ttf)format("truetype"):
+    font-Family:nos;
+    }
+.paragraph{
+    text-align:Center;
+    font-size: 20px:
+    font-family:sans-serif;
+}
+.paragraph2{
+    text-align:center;
+    font-size: 200px;
+    font-family: nos;
+}
+.menu-bar
+{
+    text-align: center;
+    background-color: #d84f66;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    color: #000;
+}
+.menu-bar ul li
+{
+    font-family: Impact;
+    width: 100;
+    margin: 25;
+    padding: 10;
+}
+.menu-bar ul li:hover
+{
+    background-color: #e01212;
+    color: #000;
+    border-radius: 4px;
+}
+.paragraph5{
+    font-size: 12px;
+    font-family: courier;
+    margin: 20px;
+}
+.lets-go-btn{
+    color: firebrick;
+    background-color: #f10a0a;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    padding:10px 20px:
+    margin: left -15px;
+}
+.lets-go-btn:hover{
+    background-color: #f10a0a;
+}
+.icons{
+    display: flex;
+    font-size: 3rem;
+    margin: -top:0;
+    line-height:0;
+    align-items:flex-end;
+    display: flex;
+    gap:15px;
+    justify-cotent:center;
+}
+.icons a {margin-right: 65px;}
+
+.icons :hover{
+    transform: scale(2,3);
+}
+
+.footer{
+    background-color: #000;
+    margin-top:35px;
+}
+
+.p1{
+    color: #e01212;
+    font-size: large;
+    padding-bottom: 15px;
+}
